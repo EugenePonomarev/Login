@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LoginTest</string>
+    <string name="skip">Skip</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="registration">Registration</string>
+    <string name="account_not_found">Account not found</string>
+    <string name="back">back</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="account_created_successfully">Account Created Successfully</string>
+    <string name="password_mismatch">Password mismatch</string>
+    <string name="only_one_account_created">Only one account can be created</string>
+    <string name="account_already_created">Account already created</string>
+
+
+
+    <string name="login_info">Login: %1$s Password: %2$s</string>
+</resources>
