@@ -18,7 +18,7 @@ class TabsFragment : Fragment(R.layout.fragment_tabs) {
 
     private val binding by viewBinding(FragmentTabsBinding::bind)
 
-    //имплементация идет через Hilt
+    //I do the implementation through Hilt
     private val viewModel: TabsViewModel by viewModels()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
