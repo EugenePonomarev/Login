@@ -33,10 +33,10 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
     @Inject
     lateinit var loginRepository: LoginRepository
 
-    //Имплементация черегат
+    //I do the implementation through a delegate FragmentViewBindingDelegate
     private val binding by viewBinding(FragmentLoginBinding::bind)
 
-    //Делаю проброс через factory которая в делегате viewModelCreator
+    //I do the implementation through a factory which is in the viewModelCreator delegate
     private val viewModel by viewModelCreator {
         LoginViewModel(
             router = findNavController(),
