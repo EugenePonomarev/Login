@@ -28,7 +28,7 @@ class RegistrationFragment : Fragment(R.layout.fragment_registration) {
 
     private val binding by viewBinding(FragmentRegistrationBinding::bind)
 
-    //имплементация идет через Hilt
+    //I do the implementation through Hilt
     private val viewModel: RegistrationViewModel by viewModels()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
